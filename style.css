@@ -1,0 +1,215 @@
+/* phonewidth = 600px */
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa&family=Indie+Flower&display=swap');
+
+body {
+    font-family: 'Indie Flower', cursive;
+    text-align: center;
+    background: black;
+    color: white;
+    margin: auto;
+    max-width: 1080px;
+}
+header>h1 {
+    text-transform: uppercase;
+    font-size: 3rem;
+}
+.about>h2 {
+    font-size: 2rem;
+}
+.wrapper > ul{
+    gap: 3em;
+    display: flex;
+    align-content: center;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+.about {
+    padding: 2em;
+    border: 3px solid;
+    border-color: wheat;
+    border-radius: 2em;
+    animation: borderBlink infinite 17s, fadein 3s;
+}
+.about > p{
+    font-size: 1.2rem;
+}
+
+.about span {
+    animation: blink linear infinite 15s;
+}
+
+.about span:nth-of-type(4n) {
+    animation: blink linear infinite 4s;
+}
+.contacts{
+    margin: 2em;
+}
+.contacts > h2{
+    font-size: 1.5rem;
+}
+ul{
+    list-style: none;
+}
+li>a{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    background-color: wheat;
+    margin-left: 20px;
+    padding: 16px;
+    border-radius: 10px;
+    width: 80px;
+    height: 80px;
+    font-size: 1.3em;
+    color: black;
+    text-decoration: none;
+}
+a>svg{
+    height: 2rem;
+    fill: black;
+}
+li:nth-child(1)>a>svg{
+    animation: svgBlink infinite 3s ;
+}
+li:nth-child(2)>a>svg{
+    animation: svgBlink infinite 5s ;
+}
+li:nth-child(3)>a>svg{
+    animation: svgBlink infinite 7s ;
+}
+@keyframes borderBlink{
+    78% {
+        border-color: wheat;
+        box-shadow: inherit;
+    }
+
+    79% {
+        border-color: black;
+    }
+
+    80% {
+        box-shadow: none;
+    }
+
+    81% {
+        border-color: wheat;
+        box-shadow: inherit;
+    }
+
+    82% {
+        border-color: black;
+        box-shadow: none;
+    }
+
+    83% {
+        border-color: wheat;
+        box-shadow: inherit;
+    }
+
+    92% {
+        border-color: black;
+        box-shadow: none;
+    }
+
+    92.5% {
+        border-color: wheat;
+        box-shadow: inherit;
+    }
+}
+@keyframes svgBlink {
+    78% {
+        fill: black;
+        text-shadow: inherit;
+    }
+
+    79% {
+        fill: wheat;
+    }
+
+    80% {
+        text-shadow: none;
+    }
+
+    81% {
+        fill: black;
+        text-shadow: inherit;
+    }
+
+    82% {
+        fill: wheat;
+        text-shadow: none;
+    }
+
+    83% {
+        fill: black;
+        text-shadow: inherit;
+    }
+
+    92% {
+        fill: wheat;
+        text-shadow: none;
+    }
+
+    92.5% {
+        fill: black;
+        text-shadow: inherit;
+    }
+}
+@keyframes blink {
+    78% {
+        color: inherit;
+        text-shadow: inherit;
+    }
+
+    79% {
+        color: black;
+    }
+
+    80% {
+
+        text-shadow: none;
+    }
+
+    81% {
+        color: inherit;
+        text-shadow: inherit;
+    }
+
+    82% {
+        color: black;
+        text-shadow: none;
+    }
+
+    83% {
+        color: inherit;
+        text-shadow: inherit;
+    }
+
+    92% {
+        color: black;
+        text-shadow: none;
+    }
+
+    92.5% {
+        color: inherit;
+        text-shadow: inherit;
+    }
+}
+@keyframes fadein {
+    0% {
+        opacity: 0;
+    }
+
+    40% {
+        opacity: 0.3;
+    }
+    70% {
+        opacity: 0.8;
+    }
+
+    100% {
+        opacity: 1;
+    }
+}
