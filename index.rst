@@ -1,15 +1,31 @@
+##################
+H1: document title
+##################
 
-Some text before.
+Introduction text.
 
-.. note::
 
-  Some note.
+*********
+Sample H2
+*********
 
-##### 
-Heading H1 
-***** 
-Heading H2
-===== 
-Heading H3
------ 
-Heading H4
+Sample content.
+
+
+**********
+Another H2
+**********
+
+Sample H3
+=========
+
+Sample H4
+---------
+
+Sample H5
+^^^^^^^^^
+
+Sample H6
+"""""""""
+
+And some text.
