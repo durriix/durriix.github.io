@@ -3,4 +3,4 @@ Author
 
 Link
 ---------------------------------------
-```Ja <https://durriix.github.io/>`_``
+`Ja <https://durriix.github.io/>`_
