@@ -1,8 +1,8 @@
 
-H1 Heading 1
+Heading H1 
 ############
-H2 Heading 2
+Heading H2
 ############
-H3 Heading 3
+Heading H3
 ############
-H4 Heading 4
+Heading H4
