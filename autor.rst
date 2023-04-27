@@ -1,6 +1,6 @@
 Author
 ======
 
-`A cool website`
-
-.. _Me: https://durriix.github.io/
+Link
+---------------------------------------
+```Ja <https://durriix.github.io/>`_``
