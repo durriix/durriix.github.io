@@ -3,4 +3,10 @@ Author
 
 Link
 ---------------------------------------
-`Ja <https://durriix.github.io/>`_
+`limk do mnie <https://durriix.github.io/>`_
+
+Phone: 123-456-789
+
+School: ZSE, room 201, 2-floor
+
+Link RtD:
