@@ -1,8 +1,5 @@
 
-Heading H1 
-############
-Heading H2
-############
-Heading H3
-############
-Heading H4
+# Heading H1 
+* Heading H2
+= Heading H3
+- Heading H4
