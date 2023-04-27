@@ -1,4 +1,10 @@
 
+Some text before.
+
+.. note::
+
+  Some note.
+
 ##### 
 Heading H1 
 ***** 
