@@ -3,4 +3,4 @@ Author
 
 `A cool website`
 
-.. Me: https://durriix.github.io/
+.. _Me: https://durriix.github.io/
